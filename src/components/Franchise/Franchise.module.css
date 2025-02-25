@@ -1,0 +1,638 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    width: 100%;
+
+    padding: 5rem;
+    background: rgb(62, 61, 61);
+
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+        margin: 10px auto;
+    }
+}
+
+/* Content Wrapper */
+.contentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .contentWrapper {
+        flex-direction: column;
+    }
+}
+
+/* Left Section */
+.leftSection {
+    flex: 1;
+    padding: 40px;
+}
+
+.leftSection .title {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+.leftSection .highlight {
+    color: white;
+}
+
+.leftSection .highlight2 {
+    color: #febb12;
+}
+
+.description {
+    max-width: 500px;
+}
+
+@media (max-width: 480px) {
+    .leftSection {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .leftSection .title {
+        font-size: 30px;
+    }
+}
+
+/* Right Section */
+.rightSection {
+    flex: 1.5;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .rightSection {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    padding: 15px;
+}
+
+@media (max-width: 480px) {
+    .form {
+        padding: 10px;
+    }
+}
+
+/* Row */
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Input Group */
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputGroup input,
+.inputGroup select {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Submit Button */
+.submitButton {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.submitButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Section */
+.videoSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 8rem;
+    margin-top: 1.2rem;
+}
+
+@media (max-width: 480px) {
+    .videoSection {
+        flex-direction: column;
+    }
+}
+
+
+/* Video Wrapper */
+.videoWrapper {
+    flex: 1;
+}
+
+/* Video */
+.video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+    .video {
+        max-width: 100%;
+    }
+}
+
+/* Apply Button */
+.applyButton {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #febb12;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.applyButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Text Wrapper */
+.videoTextWrapper {
+    flex: 1;
+    text-align: center;
+}
+
+.videoTextWrapper .videoTitle {
+    font-size: 28px;
+    color: #febb12;
+}
+
+@media (max-width: 480px) {
+    .videoTextWrapper .videoTitle {
+        font-size: 22px;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+
+    }
+
+    .approvalProcessCard {
+        background-color: #febb12;
+        margin-top: 5rem;
+        max-width: 300px;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10rem;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        gap: 10px;
+    }
+
+    .chooseStockArcheryCardContainer {
+        flex-direction: column;
+    }
+
+}
+
+
+.required {
+    color: red;
+}
+
+/* Minimum Area Required section */
+
+/* icon Card */
+
+.iconCard {
+    background: #f9f9f9;
+    padding: min(5vw, 3rem);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconTitle {
+
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.iconAreaTitle {
+    color: #d88d3c;
+}
+
+.iconInvestmentTitle {
+    color: #3b873e;
+}
+
+.iconLocationTitle {
+    color: #37439e;
+}
+
+.iconText {
+    color: #a6a6a6;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:700px) {
+    .iconCard {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+/* Centre Franchise Approval Process Section */
+
+.approvalProcessContainer {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+
+}
+
+.approvalProcessContainerTitle {
+    color: #febb12;
+    font-size: min(3vw, 3rem);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.approvalProcessContainerSubTitle {
+    font-size: min(4vw, 3.5rem);
+    color: #ffffff;
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.approvalProcessCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5rem;
+    max-width: 300px;
+    width: 300%;
+    border-radius: min(20px, 40px);
+    padding: 3rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+}
+
+.approvalProcessIcon {
+    width: min(50px, 70px);
+    height: min(50px, 70px);
+    border-radius: min(15px, 30px);
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: min(30px, 60px);
+    height: min(30px, 60px);
+}
+
+.processIcons {
+    width: min(30px, 45px);
+    height: min(30px, 45px);
+}
+
+.approvalProcessTitle {
+    color: #febb12;
+    font-weight: bold;
+    font-size: min(2vw, 1.5rem);
+}
+
+.approvalProcessText {
+    color: #000;
+    font-size: min(2vw, 1.5rem);
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:700px) {
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Why Choose StockArchery Section */
+
+.chooseStockArcheryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: min(10px, 20px);
+    margin-bottom: 8rem;
+}
+
+.chooseStockArcheryTitle {
+    color: #fff;
+    font-size: min(3vw, 3.5rem);
+}
+
+.chooseStockArcheryTitleHighlight {
+    color: #febb12;
+    font-size: min(3vw, 4rem);
+    text-decoration: underline;
+}
+
+.chooseStockArcheryCardContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    margin-top: 8rem;
+}
+
+.chooseStockArcheryCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(250, 250, 250);
+    height: min(100px, 150px);
+    width: min(300px, 400px);
+    border-radius: min(10px, 20px);
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.chooseStockArcheryCard:hover {
+    transform: scale(1.05);
+}
+
+
+
+.chooseIcon {
+    height: min(40px, 60px);
+    width: min(40px, 60px);
+}
+
+.chooseStockArcheryText {
+    text-align: center;
+    color: #000;
+}
+
+@media (max-width: 720px) {
+    .chooseStockArcheryCardContainer {
+        flex-direction: column;
+    }
+
+    .chooseStockArcheryCard {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+
+/* OUR CONCEPT Section */
+
+.ourConceptContainer {
+    margin-bottom: 8rem;
+}
+
+.ourConceptContainerTitle {
+    text-align: center;
+    font-size: min(3vw, 3.5rem);
+    color: #fff;
+}
+
+.ourConceptContainerSubTitle {
+    color: #febb12;
+    text-decoration: underline;
+    font-size: min(3vw, 4rem);
+}
+
+.ourConceptCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.ourConceptCard {
+    width: 300px;
+    height: 280px;
+    background-color: #f7f7f7;
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ourConceptCardTitle {
+    color: #febb12;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.ourConceptCardText {
+    color: #000;
+    font-size: small;
+}
+
+.ourConceptCardIcon {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:800px) {
+    .ourConceptCardContainer {
+        flex-direction: column;
+    }
+}
+
+/* Listen from our users & students section */
+
+.listenFromUsersContainer {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 8rem;
+
+}
+
+.listenFromUsersTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: min(3vw, 3.5rem);
+    color: #fff;
+}
+
+.listenFromUsersCardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.listenFromUsersCard {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.listenFromUsersVideo {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.videoInfo {
+    padding: 10px 0;
+}
+
+.videoInfo h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #febb12;
+    font-weight: bold;
+}
+
+.videoInfo p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.host {
+    font-weight: bold;
+}
+
+
+
+/* Listen from the Founder!! */
+
+.listenFromFounderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #000;
+    margin-inline: -80px;
+    padding: 75px;
+    position: static
+}
+
+.listenFromFounderVideo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.listenFromFounderWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listenFromFounderTitle {
+    color: #fff;
+    font-size: min(3vw, 3.5rem);
+}
+
+.listenFromFounderText {
+    font-size: min(3vw, 2rem);
+}
+
+@media screen and (max-width:480px) {
+    .listenFromFounderContainer {
+        flex-direction: column;
+        gap: 20px;
+        padding-inline: 20px;
+    }
+
+    .listenFromFounderVideo {
+        width: 70%;
+    }
+
+    .listenFromFounderText {
+        text-align: center;
+        margin-inline: 50px;
+    }
+}

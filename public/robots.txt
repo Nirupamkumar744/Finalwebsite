@@ -1,0 +1,20 @@
+# Block all crawlers from sensitive areas
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /search/
+
+# Allow specific pages to be crawled
+Allow: /
+Allow: /about
+Allow: /testimonial
+Allow: /contact
+Allow: /FAQ
+
+# Sitemap location
+Sitemap: https://stockarchery.in/sitemap.xml

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.animated-heading {
+    font-family: 'Nerko One', cursive;
+    font-size: 4rem;
+    color: #151313; /* Tomato color */
+    margin-bottom: 30px;
+    opacity: 0;
+    text-align: center;
+    position: relative;
+    animation: fadeInDown 1.5s ease-in-out forwards;
+}
+
+.animated-heading::before,
+.animated-heading::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 60px;
+    background-color: #1d1412;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.animated-heading::before {
+    left: 0;
+}
+
+.animated-heading::after {
+    right: 0;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.subheading {
+    font-family: 'Nerko One', cursive;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% { color: #f28572; } /* Tomato */
+    25% { color: #f28572; } /* Orange */
+    50% { color: #f28572; } /* Lime Green */
+    75% { color: #f28572; } /* Dodger Blue */
+    100% { color: #f28572; } /* Deep Pink */
+}
+
+.inline-image {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 0 15px 15px 0;
+    border-radius: 8px;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeInScale 1.5s ease-in-out forwards;
+}
+
+.right-image {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

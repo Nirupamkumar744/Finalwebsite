@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Home Page -->
+    <url>
+        <loc>https://stockarchery.in/</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About Page -->
+    <url>
+        <loc>https://stockarchery.in/about</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Testimonial Page -->
+    <url>
+        <loc>https://stockarchery.in/testimonial</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://stockarchery.in/contact</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- FAQ Page -->
+    <url>
+        <loc>https://stockarchery.in/FAQ</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+  <url>
+        <loc>https://stockarchery.in/blog</loc>
+        <lastmod>2024-08-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://stockarchery.in/franchise</loc>
+        <lastmod>2024-08-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
