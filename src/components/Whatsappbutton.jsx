@@ -32,7 +32,7 @@ const FixedButton = styled(Button)`
 
 const WhatsAppButton = () => {
   const handleClick = () => {
-    const phoneNumber = '+917645086121';
+    const phoneNumber = '+919229102334';
     const message = 'Hi, I was just checking out your website, and Im interested in learning more about your trading floor and live market sessions. Can you provide me with more details?';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
