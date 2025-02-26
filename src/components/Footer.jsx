@@ -25,7 +25,7 @@ const Footer = () => {
     }
   };
 
-  const phoneNumber = '+917645086121'; // Your phone number in international format
+  const phoneNumber = '+919229102334'; // Your phone number in international format
   const message = encodeURIComponent('Hi, I was just checking out your website, and Im interested in learning more about your trading floor and live market sessions. Can you provide me with more details?');
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
@@ -106,7 +106,7 @@ const Footer = () => {
           <div className="footer-contact">
             <h3>Call Us</h3>
             <a href="tel:+919229102334" aria-label="Call us at +91 9229102334"><h3>+91 9229102334</h3></a>
-            <a href="tel:+918252052601" aria-label="Call us at +91 8252052601"><h3>+91 8252052601</h3></a>
+            
           </div>
         </div>
 
