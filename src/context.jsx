@@ -18,7 +18,7 @@ const AppProvider = ({ children }) => {
       type: "HOME_UPDATE",
       payload: {
         name: "STOCK ARCHERY",
-        image: "./images/B.gif",
+        image: "https://res.cloudinary.com/dyrn2eg1j/image/upload/v1741347106/Untitled_design_15_royn8o.png",
         paragraph: "Welcome to Stock Archery, your premier source for expert trading knowledge and strategies. Achieve trading success with our in-depth resources, tips, and insights tailored for savvy investors. Start mastering the market today",
       },
     });
