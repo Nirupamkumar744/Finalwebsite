@@ -21,8 +21,8 @@ const Heading = styled.h1`
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
-  color:#febb12; /* Darker color for professionalism */
-  font-weight: 700; /* Bold font weight */
+  color: #febb12;
+  font-weight: 700;
 `;
 
 // Container for the FAQ section
@@ -34,20 +34,20 @@ const FAQContainer = styled.div`
 
 // Style for each FAQ item
 const FAQItem = styled.div`
-  background-color: #ffffff; /* White background for each item */
-  border-radius: 10px; /* Rounded corners */
-  border: 1px solid #ddd; /* Light border */
-  padding: 20px; /* Padding for content */
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  margin-bottom: 20px; /* Space between FAQ items */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
 
   &:hover {
-    background-color: #f9f9f9; /* Slightly darker background on hover */
-    transform: translateY(-2px); /* Lift effect on hover */
+    background-color: #f9f9f9; 
+    transform: translateY(-2px); 
   }
 `;
 
@@ -60,17 +60,17 @@ const QuestionContainer = styled.div`
 
 // Style for the question text
 const Question = styled.div`
-  font-size: 1.6rem; /* Adjusted font size */
-  font-weight: 500; /* Medium font weight */
-  color: #2c3e50; /* Darker color for question text */
+  font-size: 1.6rem;
+  font-weight: 500; 
+  color: #2c3e50; 
   flex-grow: 1;
   display: flex;
   align-items: center;
 `;
 
 const QuestionIcon = styled(FaQuestionCircle)`
-  margin-right: 10px; /* Space between icon and text */
-  color: #3498db; /* Professional blue color for the icon */
+  margin-right: 10px; 
+  color: #3498db; 
 `;
 
 // Style for the answer text
@@ -79,9 +79,9 @@ const Answer = styled.div`
   overflow: hidden;
   transition: max-height 0.6s ease, padding 0.6s ease;
   padding: ${({ isOpen }) => (isOpen ? '10px 0' : '0')};
-  font-size: 1.4rem; /* Slightly smaller font size for answers */
-  color: #555; /* Dark gray for answer text */
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '0')}; /* Fade effect */
+  font-size: 1.4rem; 
+  color: #555; 
+  opacity: ${({ isOpen }) => (isOpen ? '1' : '0')};
   transition: opacity 0.3s ease;
 `;
 
@@ -92,8 +92,8 @@ const Arrow = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem; /* Adjust size if needed */
-  color: #3498db; /* Blue color for the arrow */
+  font-size: 1.6rem; 
+  color: #3498db; 
 `;
 
 const FAQ = () => {
