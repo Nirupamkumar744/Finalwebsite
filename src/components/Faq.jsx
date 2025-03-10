@@ -103,7 +103,7 @@ const FAQ = () => {
     },
     {
       question: 'How long will this training last ?',
-      answer: 'The training duration is of 2 months, excluding weekends, with one year of handholding support.'
+      answer: 'The training duration is of 45 days, excluding weekends, with one year of handholding support.'
     },
     {
       question: 'Will I be able to trade independently after this training ends ?',
