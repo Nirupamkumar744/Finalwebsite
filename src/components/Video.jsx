@@ -118,7 +118,7 @@ const Video = () => {
           Bihar's <span>First</span> Trading <span>Floor</span>
         </h2>
         <p>
-        Join Bihar’s premier stock market training center and experience live trading classes where education meets action. Learn proven strategies, trade in real-time under expert mentorship, and gain hands-on experience. Whether you're a beginner or experienced trader, our comprehensive training and supportive community will elevate your skills. Take the first step towards financial independence at the best stock market institute in Bihar. 📈 Ready to Trade Like a Pro? Contact us now to enroll!!
+        Join Bihar’s premier stock market training center and experience live trading classes where education meets action. Learn proven strategies, trade in real-time under expert mentorship, and gain hands-on experience. Whether you're a beginner or experienced trader, our comprehensive training and supportive community will elevate your skills. Take the first step towards financial independence at the best stock market institute in Bihar. Ready to Trade Like a Pro? Contact us now to enroll!!
         </p>
       </TextContent>
     </Container>
