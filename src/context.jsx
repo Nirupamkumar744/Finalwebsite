@@ -19,7 +19,7 @@ const AppProvider = ({ children }) => {
       payload: {
         name: "STOCK ARCHERY",
         image: "images/44.gif",
-        paragraph: "Welcome to Stock Archery, your premier source for expert trading knowledge and strategies. Achieve trading success with our in-depth resources, tips, and insights tailored for savvy investors. Start mastering the market today",
+        paragraph: "Welcome to Stock Archery, Bihar’s premier stock market training center for expert trading knowledge and strategies. Achieve success with our in-depth resources, tips, and insights tailored for savvy investors. Start mastering the market with the best stock market institute in Bihar today!",
       },
     });
   };
@@ -30,7 +30,7 @@ const AppProvider = ({ children }) => {
       payload: {
         name: "Bihar's First Trading Floor",
         image: "https://res.cloudinary.com/dyrn2eg1j/image/upload/v1726054959/Screenshot__32_-removebg-preview_ahrfou.png",
-        paragraph: "Introducing Stock Archery's  live trading classes—where education meets real-time trading. Gain hands-on experience and practical skills in our interactive sessions. Elevate your trading expertise with our unique, live-learning approach. Join now and experience the future of trading education",
+        paragraph: "Stock Archery is Bihar’s premier stock market training center and trading floor, offering unmatched hands-on trading education during live market sessions. As a regional pioneer, we specialize in real-time trading experience with expert trainers providing comprehensive, step-by-step guidance to master essential skills. Our innovative approach promotes learning by doing—students trade alongside seasoned professionals, merging theory with practice. Whether you're a novice or seeking advanced skill enhancement, Stock Archery delivers tailored classes to achieve your trading goals. Discover the future of stock market education and elevate your market success with us today.",
       },
     });
   };

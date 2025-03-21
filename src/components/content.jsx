@@ -166,25 +166,25 @@ const AboutPage = () => {
       title: 'Live Market Sessions',
       text: 'Our trading floor, the first of its kind in Bihar, offers a unique opportunity to learn and trade during live market.',
       image: 'https://res.cloudinary.com/dyrn2eg1j/image/upload/v1724152392/2nd_s04uzo.jpg',
-      backText: 'Join our live market sessions at Stock Archery to gain unparalleled real-time trading experience and actionable insights directly from industry experts. Our sessions offer a unique opportunity to engage with the market as it unfolds, providing you with hands-on learning and immediate feedback from seasoned professionals.',
+      backText: 'Join Stock Archery’s live market sessions for real-time trading experience and actionable insights from industry experts. Engage with the market as it unfolds, gaining hands-on learning and immediate feedback from seasoned professionals.',
     },
     {
       title: 'One-on-One Mentorship',
       text: 'Stock Archery offers personalized mentorship, empowering you with tailored guidance and support for success.',
       image: 'https://res.cloudinary.com/dyrn2eg1j/image/upload/v1724152392/3rd_jem2df.jpg',
-      backText: 'Our exclusive one-on-one mentorship program offers personalized support tailored to your unique trading needs. Designed to help you navigate the complexities of the stock market with confidence, this program provides direct access to expert guidance and customized strategies.',
+      backText: 'Our one-on-one mentorship program offers personalized support tailored to your trading needs. Gain expert guidance and customized strategies to navigate the stock market with confidence.',
     },
     {
       title: 'Doubt Clearing Sessions',
       text: 'We are dedicated to sustainable practices that protect the environment and promote a healthier future.',
       image: 'https://res.cloudinary.com/dyrn2eg1j/image/upload/v1724152393/5th_-_Copy_flkcme.jpg',
-      backText: 'Clear your doubts and overcome trading challenges with our in-depth, personalized sessions. Our program is designed to tackle your specific trading issues head-on, providing targeted solutions and expert advice to address your unique concerns. Benefit from comprehensive, one-on-one discussions that focus on resolving your trading difficulties and refining your strategies.',
+      backText: 'Resolve your trading challenges with our personalized sessions. Get targeted solutions and expert advice to tackle your specific issues. Our one-on-one discussions provide in-depth support to refine your strategies and enhance your trading confidence.',
     },
     {
       title: '1 Year Handhold Support',
       text: 'We actively engage with and support our local communities through various initiatives and partnerships.',
       image: 'https://res.cloudinary.com/dyrn2eg1j/image/upload/v1726124281/12343_sobrul.webp',
-      backText: 'Enjoy a full year of dedicated support with our comprehensive trading program, designed to keep you on track with your trading goals and ensure continuous progress. Our year-long support package offers you ongoing access to expert guidance, personalized feedback, and strategic insights tailored to your evolving needs.',
+      backText: 'Get a full year of dedicated support with our comprehensive trading program, ensuring continuous progress toward your goals. Enjoy ongoing access to expert guidance, personalized feedback, and strategic insights tailored to your evolving trading needs.',
     },
   ];
 
@@ -208,7 +208,7 @@ const AboutPage = () => {
               <span style={whiteTextStyle}>ABOUT</span> US
             </h1>
             <p style={paragraphStyle}>
-              Stock Archery is Bihar’s premier trading floor and educational hub, offering unmatched hands-on trading education during live market sessions. As a pioneer in the region, we specialize in practical, real-time trading experience. Our expert trainers provide comprehensive, step-by-step guidance, ensuring that students master essential trading skills. At Stock Archery, our innovative approach promotes learning by doing—students trade alongside seasoned professionals, merging theory with real-world practice. Whether you're a novice or seeking advanced skill enhancement, Stock Archery delivers tailored classes to achieve your trading goals. Discover the future of trading education and elevate your market success with us today.
+            Stock Archery is Bihar’s leading stock market training center and trading floor, offering hands-on education during live market sessions. With expert trainers providing step-by-step guidance, students gain real-time trading experience and master essential skills. Our practical approach ensures learning by doing — trading alongside seasoned professionals. Whether you're a beginner or seeking advanced skills, Stock Archery offers tailored classes to achieve your goals. Experience the future of stock market education in Bihar and elevate your success today.
             </p>
           </div>
         </section>

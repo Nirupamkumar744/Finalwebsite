@@ -3,20 +3,20 @@ import styled from 'styled-components';
 import { FaChevronDown, FaChevronUp, FaQuestionCircle } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 
-// Container for the whole page
+
 const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 40px 20px; /* Increased padding for a spacious feel */
-  background: #252525; /* Light gradient background */
-  color: #333; /* Dark text for readability */
-  font-family: 'Roboto', sans-serif; /* Use Google Font */
+  padding: 40px 20px;
+  background: #252525;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
 `;
 
-// Heading style
+
 const Heading = styled.h1`
   font-size: 2.5rem;
   text-align: center;
@@ -25,14 +25,14 @@ const Heading = styled.h1`
   font-weight: 700;
 `;
 
-// Container for the FAQ section
+
 const FAQContainer = styled.div`
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 `;
 
-// Style for each FAQ item
+
 const FAQItem = styled.div`
   background-color: #ffffff;
   border-radius: 10px;
