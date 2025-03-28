@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faInstagram, faYoutube, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { db, collection, addDoc } from './firebase';
+
 const Footer = () => {
   const [phone, setPhone] = useState('');
 
@@ -12,26 +13,22 @@ const Footer = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
-      const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
+      const today = new Date().toISOString().split('T')[0];
       const docRef = await addDoc(collection(db, `submissions`), {
         phone
       });
       console.log("Document written with ID: ", docRef.id);
-      setPhone(''); // Clear the input field after submission
+      setPhone('');
     } catch (e) {
       console.error("Error adding document: ", e);
     }
   };
 
-  const phoneNumber = '+919229102334'; // Your phone number in international format
+  const phoneNumber = '+919229102334';
   const message = encodeURIComponent('Hi, I was just checking out your website, and Im interested in learning more about your trading floor and live market sessions. Can you provide me with more details?');
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
-
-
-  
   return (
     <Wrapper>
       <section className="contact-short" aria-labelledby="contact-short-heading">
@@ -39,7 +36,6 @@ const Footer = () => {
           <div className="contact-text">
             <h3 id="contact-short-heading">Talk to us today</h3>
           </div>
-
           <div className="contact-short-btn">
             <a href={whatsappURL} target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
               <StyledButton>
@@ -51,7 +47,6 @@ const Footer = () => {
         </div>
       </section>
 
-      {/* footer section */}
       <footer aria-labelledby="footer-heading" role="contentinfo">
         <div className="container grid grid-four-column">
           <div className="footer-about">
@@ -61,7 +56,6 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* 2nd column */}
           <div className="footer-subscribe">
             <h3>Feel Free to Contact Us</h3>
             <form onSubmit={handleSubmit} aria-labelledby="subscribe-form-heading">
@@ -79,39 +73,37 @@ const Footer = () => {
             </form>
           </div>
 
-          {/* 3rd column */}
           <div className="footer-social">
             <h3>Follow Us</h3>
             <div className="footer-social--icons" role="list">
               <a href="https://www.linkedin.com/company/stockarchery/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn">
                 <FontAwesomeIcon icon={faLinkedin} style={{ color: "#0077b5" }} className="icons" />
               </a>
-              
               <a href="https://www.instagram.com/stock.archery/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
                 <FontAwesomeIcon icon={faInstagram} style={{ color: "#e1306c" }} className="icons" />
               </a>
-      
               <a href="https://www.youtube.com/@stock.archery" target="_blank" rel="noopener noreferrer" aria-label="Follow us on YouTube">
                 <FontAwesomeIcon icon={faYoutube} style={{ color: "#ff0000" }} className="icons" />
               </a>
-              
               <a href="https://x.com/stockarchery" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">
                 <FontAwesomeIcon icon={faTwitter} style={{ color: "#0077b5" }} className="icons" />
               </a>
-              
             </div>
           </div>
 
-          {/* 4th column */}
           <div className="footer-contact">
             <h3>Call Us</h3>
             <a href="tel:+919229102334" aria-label="Call us at +91 9229102334"><h3>+91 9229102334</h3></a>
-            
           </div>
         </div>
 
-        {/* bottom section */}
-        
+        {/* Copyright section */}
+        <div className="footer-bottom--section">
+          <hr />
+          <p className="copyright">
+            © {new Date().getFullYear()} Stock Archery. All Rights Reserved.
+          </p>
+        </div>
       </footer>
     </Wrapper>
   );
@@ -145,7 +137,7 @@ const Wrapper = styled.section`
         align-items: center;
 
         a {
-          text-decoration: none; /* Remove underline from the link */
+          text-decoration: none;
         }
       }
     }
@@ -162,11 +154,11 @@ const Wrapper = styled.section`
     }
 
     .stock {
-      color: #ffffff; /* White color for Stock */
+      color: #ffffff;
     }
 
     .archery {
-      color: #febb12; /* Existing color for Archery */
+      color: #febb12;
     }
 
     p {
@@ -180,7 +172,7 @@ const Wrapper = styled.section`
 
       .icons {
         font-size: 2.0rem;
-        color: inherit; /* Use color from parent element */
+        color: inherit;
         cursor: pointer;
       }
     }
@@ -218,11 +210,17 @@ const Wrapper = styled.section`
 
     .footer-bottom--section {
       padding-top: 9rem;
+      text-align: center;
 
       hr {
         margin-bottom: 2rem;
         color: ${({ theme }) => theme.colors.hr};
         height: 0.1px;
+      }
+
+      .copyright {
+        color: #febb12;
+        font-size: 1.4rem;
       }
     }
   }
@@ -254,7 +252,7 @@ const Wrapper = styled.section`
 `;
 
 const StyledButton = styled.button`
-  background-color: #28a745; /* Green color */
+  background-color: #28a745;
   color: #ffffff;
   border: none;
   padding: 1rem 2rem;
@@ -264,14 +262,14 @@ const StyledButton = styled.button`
   font-size: 1.6rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 1.5rem; /* Added border radius */
+  border-radius: 1.5rem;
 
   .whatsapp-icon {
-    font-size: 2rem; /* Size of the WhatsApp icon */
+    font-size: 2rem;
   }
 
   &:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838;
   }
 `;
 
